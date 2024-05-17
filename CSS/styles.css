@@ -31,7 +31,7 @@ p,label{
 .formulario_header{
     position: absolute;
     top: 115px;
-    left: 650px;
+    left: 500px;
     border-bottom: 1px solid #ddd;
     height: 50px;
     width: 600px;
@@ -59,7 +59,7 @@ p,label{
 .formulario_container{
     position: absolute;
     top:165px;
-    left: 650px;
+    left: 500px;
     border-bottom: 1px dashed #ddd;
     height: 1350px;
     width: 600px;
@@ -145,7 +145,7 @@ width: 400px;
 footer{
     position: absolute;
     top:1450px;
-    left: 650px;
+    left: 500px;
     padding-left: 50px;
 }
 
