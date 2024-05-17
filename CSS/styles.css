@@ -149,7 +149,7 @@ footer{
     padding-left: 50px;
 }
 
-@media screen and (max-width:930px){ /*celular*/
+@media screen and (max-width:720px){ /*celular*/
     .formulario_header{ 
         position: absolute;
         top: 115px;
