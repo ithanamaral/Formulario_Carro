@@ -153,19 +153,19 @@ footer{
     .formulario_header{ 
         position: absolute;
         top: 115px;
-        left: 300px;
+        left: 200px;
         }
 
         .formulario_container{
             position: absolute;
             top:165px;
-            left: 300px;
+            left: 200px;
      }
 
      .footer{
         position: absolute;
         top:1450px;
-        left: 300px;
+        left: 200px;
         padding-left: 50px;
     }
     
