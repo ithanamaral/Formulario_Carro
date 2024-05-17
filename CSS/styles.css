@@ -149,6 +149,65 @@ footer{
     padding-left: 50px;
 }
 
+@media screen and (max-width:600px){ /*celular*/
+    .formulario_header{ 
+        position: absolute;
+        top: 115px;
+        left: 300px;
+        }
+
+        .formulario_container{
+            position: absolute;
+            top:165px;
+            left: 300px;
+     }
+
+     .footer{
+        position: absolute;
+        top:1450px;
+        left: 300px;
+        padding-left: 50px;
+    }
+    
+    }
+   
+ 
+ 
+ 
+ 
+ @media screen and (min-width: 920px){ /*pc*/
+    .formulario_header{ 
+        position: absolute;
+        top: 115px;
+        left: 500px;
+        }
+    
+    
+    .formulario_container{
+        position: absolute;
+        top:165px;
+        left: 500px;
+ }
+ .footer{
+    position: absolute;
+    top:1450px;
+    left: 500px;
+    padding-left: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
