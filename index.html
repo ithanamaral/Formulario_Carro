@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Formulário/CSS/styles.css" />
+    <title>Formulário de Carros</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="cabecalho">Cadastre seu veículo para vender mais rápido !</h3>
+        </div>
+
+        <div class="formulario_header">
+            <div class="title">
+            <p class="titulo">Formulário</p>
+        </div>
+        </div>
+       
+
+        <div class="formulario_container">
+            <h1 class="h1">Venda fácil seu carro!</h1>
+            </br>
+            <p>Descreva as características e marque os opcionais que seu veículo possui.</p>
+            </br>
+            </br>
+            <div>
+                <form class="formulario_body" action="mailto:ithanamaral@gmail.com" method="post" enctype="text/plain">
+                    <label for="anuncio">Título do Anúncio:</label>
+                    <input type="text" name="anuncio" placeholder="Um título para anunciar seu carro" required>
+                    </br>
+                    <label for="price">Preço:</label>
+                    <input type="number" name="price" placeholder="Dê um preço ao seu veículo:" required>
+                    </br>
+                    <label for="comment">Descrição do veículo:</label>
+                    <textarea name="comment" cols="30" rows="4" required></textarea>
+                    </br>
+                    <label for="type">Marca:</label>
+                    <input type="text" name="type" placeholder="Digite a marca do veículo:" required>
+                    </br>
+                    <label for="model">Modelo:</label>
+                    <input type="text" name="model" placeholder="Digite o modelo do veículo:" required>
+                    </br>
+                    <label for="kilometers">Quilometragem:</label>
+                    <input type="number" name="kilometers" placeholder="Digite a quilometragem do veículo:" required>
+                    </br>
+                    <label for="date">Data de Compra:</label>
+                    <input type="date" name="date" placeholder="Digite ou selecione a data da compra" required>
+                    </br>
+
+                    <label for="exchange">Escolha o câmbio do seu carro:</label>
+                    <div class="radio">
+                        <input type="radio" value="manual" name="exchange" class="para_estilo">
+                        <label for="manual" class="para_estilo">Manual</label>
+                        </br>
+                        <input type="radio" value="automatico" name="exchange" class="para_estilo">
+                        <label for="automatico" class="para_estilo">Automático</label>
+                        </br>
+                    </div>
+                    </br>
+                    <div class="optionais_carro">
+                        <label for="optionals">Selecione os opcionais do carro:</label>
+
+                        <input type="checkbox" name="optionals" value="Airbags" class="para_estilo_2">
+                        <label for="Airbags" class="para_estilo_2">Airbags</label>
+
+                        
+                        <input type="checkbox" name="optionals" value="electric locks" class="para_estilo_2">
+                        <label for="electric_locks" class="para_estilo_2">Travas-Eletr.</label>
+
+                        
+                        <input type="checkbox" name="optionals" value="Air_conditioning" class="para_estilo_2">
+                        <label for="Air_conditioning" class="para_estilo_2">Ar Condicionado</label>
+
+                        
+                        <input type="checkbox" name="optionals" value="Multimedia" class="para_estilo_2">
+                        <label for="Multimedia" class="para_estilo_2">Multimídia</label>
+
+
+                    </div>
+                    <div class="optionais_carro">
+                        <input type="checkbox" name="optionals" value="painting" class="para_estilo_2">
+                        <label for="painting" class="para_estilo_2">Pintura</label>
+                        
+                        <input type="checkbox" name="optionals" value="Leather seats" class="para_estilo_2">
+                        <label for="Leather seats" class="para_estilo_2">Bancos Couro</label>
+                        
+                        <input type="checkbox" name="optionals" value="Systems_mirrors" class="para_estilo_2">
+                        <label for="Systems_mirrors" class="para_estilo_2">Sist.Espelhos</label>
+                        
+                        <input type="checkbox" name="optionals" value="Starter" class="para_estilo_2">
+                        <label for="Starter" class="para_estilo_2">Aux.Partida</label>
+                    </div>
+                    </br>
+                </br>
+                    <div class="arquivos">
+                        <label for="archive">Fotos do Carro:</label>
+                        <input type="file" class="envio_arquivo" name="archive">
+                    </div>
+
+
+                    <div class="botão">
+                        <input type="submit" value="Enviar" class="button">
+                    </div>
+
+                    <div class="botão">
+                        <input type="reset" value="Limpar" class="button">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="rodapé">
+            <footer>
+                &copy; Íthan P. Amaral
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
