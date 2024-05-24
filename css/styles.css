@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+
+.header{
+    background-color: #FF4500;
+}
+
+p,label{
+    color: #444;
+}
+
+.cabecalho{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 180px;
+    color:aliceblue
+}
+
+.formulario_header{
+    position: absolute;
+    top: 115px;
+    left: 650px;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: #F8F8FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    
+}
+
+.title{ 
+  width: 180px;
+  padding-left: 200px;
+  padding-top: 5px;
+}
+.titulo{
+    border-bottom: 4px solid #FF4500 ;
+    color: #FF4500;
+    
+}
+
+
+.formulario_container{
+    position: absolute;
+    top:165px;
+    left: 650px;
+    border-bottom: 1px dashed #ddd;
+    height: 1350px;
+    width: 600px;
+    background-color: #F8F8FF;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+
+input,label{
+display: block;
+margin: 5px;
+border-radius: 5px;
+}
+input{
+    background-color:#F8F8FF ;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    width: 400px;
+}
+.formulario_body{
+    font-weight: bold;
+}
+
+textarea{
+    background-color:white;
+}
+
+.para_estilo{
+    display: inline-block;
+    width: 30px;
+}
+
+.para_estilo_2{
+    display: inline-block;
+    width: 85px;
+    padding-left:0;
+    
+    font-weight:none;
+}
+
+.optionais_carro{
+display: inline-block;
+box-sizing: border-box;
+width: 400px;
+}
+
+.botão{
+    padding-left: 120px;
+    padding-top: 30px;
+    display: inline-block;
+    
+}
+.button{
+    
+    font-size: medium;
+    color: whitesmoke;
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:#FF4500;
+    border: 6px solid rgb(225, 225, 246);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    font-size: medium;
+    color: black;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:rgb(247, 252, 251);
+    transition: background-color 0.5s, color 0.3s; /* Transição suave de cor */
+    border: 6px solid #000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona uma leve sombra */
+   
+}
+
+footer{
+    position: absolute;
+    top:1450px;
+    left: 650px;
+    padding-left: 50px;
+}
+
+
+
+@media screen and (max-width:700px){ /*celular moto edge 20 lite*/
+    .formulario_header{ 
+        position: absolute;
+        top: 115px;
+        left: 200px;
+        }
+
+        .formulario_container{
+            position: absolute;
+            top:165px;
+            left: 200px;
+     }
+
+     .footer{
+        position: absolute;
+        top:1450px;
+        left: 200px;
+        padding-left: 50px;
+    }
+    
+    }
+   
+ 
+ 
+ 
+ 
+ @media screen and (min-width: 920px){ /*pc*/
+    .formulario_header{ 
+        position: absolute;
+        top: 115px;
+        left: 375px;
+        }
+    
+    
+    .formulario_container{
+        position: absolute;
+        top:165px;
+        left: 375px;
+ }
+ .footer{
+    position: absolute;
+    top:1450px;
+    left: 375px;
+    padding-left: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
