@@ -15,7 +15,15 @@ h1,h2,h3,h4,h5{
 
 .header{
     background-color: #FF4500;
+    width: 100%;
 }
+
+.centralizadinho{
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 p,label{
     color: #444;
